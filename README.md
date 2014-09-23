@@ -6,29 +6,14 @@ This curriculum currently contains labs written to use FOSS4G software such as Q
 
 ### Lab Topics
 
-+ [ ] Lab 1 - Reviewing the Basics of Geospatial Data
-+ [ ] Lab 2 - Setting Up a Project Database
-+ [ ] Lab 3 - Vector Data Quality
-+ [ ] Lab 4 - Spatial Data Quality
-+ [ ] Lab 5 - Raster Data Structure
-+ [ ] Lab 6 - Data Sources
++ [x] Lab 1 - Reviewing the Basics of Geospatial Data
++ [x] Lab 2 - Setting Up a Project Database
++ [x] Lab 3 - Vector Data Quality
++ [x] Lab 4 - Spatial Data Quality
++ [x] Lab 5 - Raster Data Structure
++ [x] Lab 6 - Data Sources
 
-*Labs with a checkmark are completely converted to Markdown*
-
-### To-Be-Converted Lab Contents
-
-*We would love your help!*  Converting each module from MS Word to Markdown takes time, and, 
-the more that help us convert, the faster we can start tracking changes more effectively 
-in GitHub.  If you would like to contribute a conversion, [fork, convert, then submit a pull request][8]. 
-Once we receive the pull request, we will evaluate the request to make sure it follows the format 
-and philosophy of the project, and then incorporate it in this repository (with our thanks!).
-
-Each to-be-converted lab folder contains the following resources:
-
-+ **Module *n* Lab.md** - Markdown file of lab - typically a stub
-+ **SOURCE Module *n* Lab.docx** - MS Word document of the lab *to be converted to Markdown*
-+ **figures** - Folder containing all images reference in the lab
-+ **Lab *n* Data** - Folder containing all data referenced in the lab
+*Labs with a check mark are completely converted to Markdown*
 
 ### Completed Lab Contents
 
