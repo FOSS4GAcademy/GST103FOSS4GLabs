@@ -116,7 +116,7 @@ Now you will edit the parcel layer to eliminate these errors.
 2. Re-validate the topology rules if they are not appearing.
 3. First, you will work on the duplicate geometries. Right click on the parcels layer and choose Toggle Editing.
 4. Double click on the first duplicate geometry error in the Topology Checker to zoom into that location.
-5. Use the Select Feature by Rectangle tool ![Select Feature by Rectangle tool](figures/Select_Feature_by_Rectangle_tool.png "Select Feature by Rectangle tool")  to select the duplicate parcels.
+5. Use the Select Feature by area or single click tool (You may need to use the select by polygon tool and draw a polygon around the highlighted area ![Select Feature by Rectangle tool](figures/Select_Feature_by_Rectangle_tool.png "Select Feature by Rectangle tool")  to select the duplicate parcels.
 6. Open the parcel layer attribute table. 
 7. Change the display filter in the lower right corner to Show Selected Features. 
 8. Notice that all the attributes are identical.
