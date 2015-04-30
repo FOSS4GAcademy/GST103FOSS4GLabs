@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+	<idinfo>
+		<citation>
+			<citeinfo>
+				<origin>USDA Forest Service, Cibola National Forest</origin>
+				<pubdate>20101115</pubdate>
+				<title Sync="TRUE">Wilderness</title>
+				<geoform Sync="TRUE">vector digital data</geoform>
+				<pubinfo>
+					<pubplace>Albuquerque, NM</pubplace>
+					<publish>Cibola National Forest</publish>
+				</pubinfo>
+				<othercit>This dataset is part of the USFS Southwestern Region Geodatabase Schema, a product of the Core Data Project.  This project is designed to generate and maintain vertically integrated resource data layers which are standardized across the Southwestern Region.</othercit>
+				<onlink Sync="TRUE">\\PCHP8210VH3\C$\WorkSpace\R03\CIB\Web\Wilderness.shp</onlink>
+				<ftname Sync="TRUE">Wilderness</ftname></citeinfo>
+		</citation>
+		<descript>
+			<abstract>A feature class depicting National Forest System land parcels that have a Congressionally designated boundary.  Examples include National Wilderness Area, Primitive Area, or Wilderness Study Area. Associated National Application: Automated Lands Program (ALP) http://fsweb.r6.fs.fed.us/alp/spl/doc_files/REF_ALPCvgDataDict.doc</abstract>
+			<purpose>The purpose of this feature class is to depict the areas of wilderness designation of the Cibola National Forest.</purpose>
+			<supplinf>
+The National Wilderness Preservation System was created on September 3, 1964, when President Lyndon B. Johnson signed The Wilderness Act.  The National Wilderness Preservation System, created at the signing of the Wilderness Act, was to contain those lands, already owned by the American people, that were "untrammeled by man." They were to be managed "for the use and enjoyment of the American people in such manner as will leave them unimpaired for future use and enjoyment as wilderness..." No roads or structures were to be built. Vehicles and other mechanical equipment were not to be used. The minimum size was set at 5,000 acres, with certain exceptions.  The Wilderness Act also put 9.1 million acres of national forest land into the new system. A process was created for congressional designation of future acreage in the national forests, parks, and wildlife refuges. In 1976, the Federal Land Policy and Management Act set forth a process for adding Bureau of Land Management (BLM) areas to the National Wilderness Preservation System.  These four sets of public lands total 623 million acres, about 26 percent of our country.
+
+This feature class was derived from the cartographic feature files (CFF's) for the Primary Base Series 7.5 minute quadrangles provided by the USDA Forest Service Geospatial Service and Technology Center (GSTC).  The CFFs may have been augmented with data from a variety of sources (GPS, DOQQs, hardcopy maps) per direction from Forest specialists.
+</supplinf>
+			<langdata Sync="TRUE">en</langdata></descript>
+		<timeperd>
+			<timeinfo>
+				<sngdate>
+					<caldate>2010</caldate>
+				</sngdate>
+			</timeinfo>
+			<current>Most current data available within the stated time period.</current>
+		</timeperd>
+		<status>
+			<progress>Complete</progress>
+			<update>As needed</update>
+		</status>
+		<spdom>
+			<bounding>
+				<westbc>-107.551303</westbc>
+				<eastbc>-106.361737</eastbc>
+				<northbc>35.297485</northbc>
+				<southbc>33.532954</southbc>
+			</bounding>
+			<lboundng><leftbc Sync="TRUE">267955.364000</leftbc><rightbc Sync="TRUE">373583.690000</rightbc><bottombc Sync="TRUE">3713169.139000</bottombc><topbc Sync="TRUE">3906920.172000</topbc></lboundng></spdom>
+		<keywords>
+			<theme>
+				<themekt>None</themekt>
+				<themekey>Wilderness</themekey>
+				<themekey>Park</themekey>
+				<themekey>Recreation</themekey>
+				<themekey>Special Mangement</themekey>
+			</theme>
+			<place>
+				<placekt>None</placekt>
+				<placekey>Albuquerque</placekey>
+				<placekey>Cibola</placekey>
+				<placekey>Grants</placekey>
+				<placekey>Magdalena</placekey>
+				<placekey>Manzano</placekey>
+				<placekey>Mount Taylor</placekey>
+				<placekey>Mountainair</placekey>
+				<placekey>Sandia</placekey>
+			</place>
+		</keywords>
+		<accconst>None.</accconst>
+		<useconst>
+Comparison with other data sets for the same area from
+other time periods may be inaccurate due to inconsistencies
+resulting from changes in photointerpretation, rounding of
+decimal coordinates during conversion, and mapping
+conventions over time. Any hardcopies utilizing these data
+sets shall clearly indicate their source. If the user has
+modified the data in any way they are obligated to describe
+the types of modifications they have performed on the
+hardcopy map. The user specifically agrees not to
+misrepresent these data sets, nor to imply that changes
+made were approved by the USFS.
+</useconst>
+		<ptcontac>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Cibola National Forest</cntorg>
+				</cntorgp>
+				<cntpos>Land Staff</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>2113 Osuna Rd NE</address>
+					<city>Albuquerque</city>
+					<state>NM</state>
+					<postal>87113</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>505-346-3900</cntvoice>
+				<hours>0800-1645, M-F, Mountain Time</hours>
+			</cntinfo>
+		</ptcontac>
+		<native Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</native>
+		<natvform Sync="TRUE">Shapefile</natvform></idinfo>
+	<dataqual>
+		<attracc>
+			<attraccr>Accuracy and completeness was checked by manually comparing hardcopy plots, on-screen review, and reporting method with the source materials.  Attributes were populated based on the "Specifications for TVA Data Automation Contract".  This document can be found at:  http://fsweb.r3.fs.fed.us/eng/gis/standards.html</attraccr>
+		</attracc>
+		<logic>Polygon topology present.</logic>
+		<complete>Data set is complete.</complete>
+		<posacc>
+			<horizpa>
+				<horizpar>Based on accuracy statements made for USGS topographic quadrangle maps. Targeted to National Standard for Spatial Data Accuracy (NSSDA). The National Map Accuracy Standards for 7.5 minute 1:24,000 quadrangles applies to this feature class, which state that a feature will be within approximately 40 feet of its true position.</horizpar>
+			</horizpa>
+		</posacc>
+		<lineage>
+			<srcinfo>
+				<srccite>
+					<citeinfo>
+						<origin>USDA Forest Service, Geospatial Service and Technology</origin>
+						<pubdate>unknown</pubdate>
+						<title>
+USFS Primary Base Series (PBS) Quadrangles to Vintage 11, US
+Forest Service Cartographic Feature Files (CFF) with some in-house
+edits
+</title>
+						<edition>Primary</edition>
+						<geoform>map</geoform>
+						<pubinfo>
+							<pubplace>Salt Lake City, UT</pubplace>
+							<publish>USDA Forest Service, Geospatial Service and Technology</publish>
+						</pubinfo>
+						<othercit>Cartographic Feature Files (CFFs) are digital files containing a vector representation of the point and line features shown on a Forest Service Primary Base Series (PBS) map. CFF data are collected by digitizing PBS maps and revised using correction guide information  provided by field units. GSTC began producing Vintage 11 CFFs in 1996.</othercit>
+					</citeinfo>
+				</srccite>
+				<srcscale>24000</srcscale>
+				<typesrc>electronic</typesrc>
+				<srctime>
+					<timeinfo>
+						<rngdates>
+							<begdate>1996</begdate>
+							<enddate>2001</enddate>
+						</rngdates>
+					</timeinfo>
+					<srccurr>
+Most current data available during the stated
+time period.
+</srccurr>
+				</srctime>
+				<srccitea>PBS and CFF</srccitea>
+				<srccontr>Wilderness Boundaries</srccontr>
+			</srcinfo>
+			<procstep>
+				<procdesc>This data set was derived from the USFS Southwestern Region Core Data Project with Tennessee Valley Authority. This data set was created from Vintage 11 CFFs. Forests provided data to be used to augment this coverage and provided the type_use_code and case_name for each feature depicted in this coverage. The wilderness region subclass was created by extracting the CFF codes that depicted wilderness and primitive areas boundaries. The CFF codes that were used in this were: 081  Boundary, F.S. Special Management or Recreational Use Area; 207  Boundary, Special Area (Old); 208  Boundary, National Wildlife Area; 209  Boundary, City or small County Park; 210 - Boundary, National Wilderness Area; 211  Boundary, Old Indian Reservation or Treaty Line; 270  Boundary, Federally Administered Area, Other; 271  Boundary National Recreation/Scenic Area; 457  Boundary, National Wild and Scenic River.  Coincidence with the layer was maintained with the Forest Boundary, PLSS and other appropriate features. If these areas extend beyond the Forest boundary, they will be carried to the geographic extent of Vintage 11 CFF quads.  The Forest may have amended or edited the CFF data with more current information.</procdesc>
+				<procdate>2001</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>USDA Forest Service, Cibola National Forest</cntorg>
+						</cntorgp>
+						<cntpos>Lands staff</cntpos>
+						<cntaddr>
+							<addrtype>mailing address</addrtype>
+							<address>2113 Osuna Rd NE</address>
+							<city>Albuquerque</city>
+							<state>NM</state>
+							<postal>87113</postal>
+							<country>USA</country>
+						</cntaddr>
+						<cntvoice>505-346-3900</cntvoice>
+						<hours>0800-1645, M-F, Mountain Time</hours>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>Wilderness areas were imported from the spec_mgt coverage wild region on 3/3/2005 by rarlowe.  Attributes were checked and corrected as needed.</procdesc>
+			</procstep>
+			<procstep>
+				<procdesc>The Sandia Wilderness area is bounded in the north west by NM State highway 165 along Las Huertas Canyon.  After refining the road alignment from CFF data to an alignment digitized from 2005 DOQQs, the Wilderness boundary crossed the highway by 100 to 150 feet along a .2 mile segment of the highway in T12N R5E sec 28 NE quarter.  The Wilderness boundary was edited to match the road along this segment.</procdesc>
+				<procdate>20061215</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Cibola National Forest</cntorg>
+							<cntper>rarlowe</cntper>
+						</cntorgp>
+						<cntpos>Resource Information Specialist</cntpos>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>dataset reprojected from UTM 13N NAD27 to UTM 13N NAD83 using the NADCON transformation.</procdesc>
+				<procdate>20070222</procdate>
+				<proccont>
+					<cntinfo>
+						<cntorgp>
+							<cntorg>Cibola National Forest</cntorg>
+							<cntper>rarlowe</cntper>
+						</cntorgp>
+						<cntpos>Resource Information Specialist</cntpos>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep>
+				<procdesc>In the new Southwestern Regional Geodatabase (v1.2), some of the Source_Code and Method attributes have been moved to the main overlaying Feature Class from the Arc Feature Class, or, have gone from Arc Level Metadata to Feature Level Metadata.  This was done in order to simplify the geodatabase for editing and maintenance.  In many cases, polygons or lines are from a single source and method, which is promoted to the feature level metadata.  When the polygons or lines are not from a single source (or dominant source), or use different methods, the code that has the least accuracy associated with the feature has been promoted. Also, nationally in the Forest Service, attributes that were labeled Source or Source_Code have been changed to Data_Source, which has a slightly different domain.  The script and data loading process to version 1.2 automates those changes.</procdesc>
+				<procdate>20071205</procdate>
+				<proccont>
+					<cntinfo>
+						<cntperp>
+							<cntper>Geoff Holden and Rob Arlowe</cntper>
+							<cntorg>Cibola NF</cntorg>
+						</cntperp>
+					</cntinfo>
+				</proccont>
+			</procstep>
+			<procstep><procdesc Sync="TRUE">Metadata imported.</procdesc><srcused Sync="TRUE">C:\DOCUME~1\gholden\LOCALS~1\Temp\xml16C0.tmp</srcused><date Sync="TRUE">20071204</date><time Sync="TRUE">12072500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">\\PCDECYSRH91\C\TEMP\Cibola_Main.mdb</srcused><date Sync="TRUE">20071213</date><time Sync="TRUE">13060500</time></procstep><procstep><procdesc Sync="TRUE">Dataset copied.</procdesc><srcused Sync="TRUE">Server=oracle-idb.cibola.r3.fs.fed.us; Service=5151; User=fs_public; Version=FSSDE.FSSDE</srcused><procdate Sync="TRUE">20101115</procdate><proctime Sync="TRUE">09103500</proctime></procstep></lineage>
+	</dataqual>
+	<spdoinfo>
+		<direct Sync="TRUE">Vector</direct>
+		<ptvctinf>
+			<sdtsterm Name="Wilderness">
+				<sdtstype Sync="TRUE">G-polygon</sdtstype>
+				<ptvctcnt Sync="TRUE">0</ptvctcnt>
+			</sdtsterm>
+			<esriterm Name="Wilderness"><efeatyp Sync="TRUE">Simple</efeatyp><efeageom Sync="TRUE">Polygon</efeageom><esritopo Sync="TRUE">FALSE</esritopo><efeacnt Sync="TRUE">0</efeacnt><spindex Sync="TRUE">FALSE</spindex><linrefer Sync="TRUE">FALSE</linrefer><XYRank Sync="TRUE">1</XYRank><ZRank Sync="TRUE">1</ZRank><topoWeight Sync="TRUE">5.000000</topoWeight><validateEvents Sync="TRUE">FALSE</validateEvents><partTopoRules><topoRuleID Sync="TRUE">19</topoRuleID></partTopoRules></esriterm></ptvctinf>
+	</spdoinfo>
+	<spref>
+		<horizsys>
+			<planar>
+				<planci>
+					<plance Sync="TRUE">coordinate pair</plance>
+					<coordrep>
+						<absres Sync="TRUE">0.000000</absres>
+						<ordres Sync="TRUE">0.000000</ordres>
+					</coordrep>
+					<plandu Sync="TRUE">meters</plandu>
+				</planci>
+				<gridsys><gridsysn Sync="TRUE">Universal Transverse Mercator</gridsysn><utm><utmzone Sync="TRUE">13</utmzone><transmer><sfctrmer Sync="TRUE">0.999600</sfctrmer><longcm Sync="TRUE">-105.000000</longcm><latprjo Sync="TRUE">0.000000</latprjo><feast Sync="TRUE">500000.000000</feast><fnorth Sync="TRUE">0.000000</fnorth></transmer></utm></gridsys></planar>
+			<geodetic>
+				<horizdn Sync="TRUE">North American Datum of 1983</horizdn>
+				<ellips Sync="TRUE">Geodetic Reference System 80</ellips>
+				<semiaxis Sync="TRUE">6378137.000000</semiaxis>
+				<denflat Sync="TRUE">298.257222</denflat>
+			</geodetic>
+			<cordsysn><geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn><projcsn Sync="TRUE">NAD_1983_UTM_Zone_13N</projcsn></cordsysn></horizsys>
+		<vertdef><altsys><altenc Sync="TRUE">Explicit elevation coordinate included with horizontal coordinates</altenc><altres Sync="TRUE">0.000003</altres></altsys></vertdef></spref>
+	<eainfo>
+		<detailed Name="Wilderness">
+			<enttyp>
+				<enttypl Sync="TRUE">Wilderness</enttypl>
+				<enttypd>Feature Class</enttypd>
+				<enttypds>None</enttypds>
+				<enttypt Sync="TRUE">Feature Class</enttypt><enttypc Sync="TRUE">0</enttypc></enttyp>
+			<attr><attrlabl Sync="TRUE">FID</attrlabl><attalias Sync="TRUE">FID</attalias><attrtype Sync="TRUE">OID</attrtype><attwidth Sync="TRUE">4</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale><attrdef Sync="TRUE">Internal feature number.</attrdef><attrdefs Sync="TRUE">ESRI</attrdefs><attrdomv><udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom></attrdomv></attr><attr>
+				<attrlabl>Shape</attrlabl>
+				<attrdef>Feature geometry.</attrdef>
+				<attrdefs>ESRI</attrdefs>
+				<attrdomv>
+					<udom>Coordinates defining the features.</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">Shape</attalias><attrtype Sync="TRUE">Geometry</attrtype><attwidth Sync="TRUE">0</attwidth><atprecis Sync="TRUE">0</atprecis><attscale Sync="TRUE">0</attscale></attr>
+			<attr>
+				<attrlabl>WILD_NAME</attrlabl>
+				<attrdef>Name of the specific designated area</attrdef>
+				<attrdefs>R3 Geodatabase Standards - 12/2004</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">WILD_NAME</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">80</attwidth></attr>
+			<attr><attrlabl Sync="TRUE">WILD_USE_C</attrlabl><attalias Sync="TRUE">WILD_USE_C</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">254</attwidth></attr><attr>
+				<attrlabl>WILD_CN</attrlabl>
+				<attrdef>Control number generated in Oracle</attrdef>
+				<attrdefs>National GIS Data Dictionary Standards - 6/30/2004</attrdefs>
+				<attrdomv>
+					<udom>Text</udom>
+				</attrdomv>
+				<attalias Sync="TRUE">WILD_CN</attalias><attrtype Sync="TRUE">String</attrtype><attwidth Sync="TRUE">34</attwidth></attr>
+		</detailed>
+	</eainfo>
+	<distinfo>
+		<distrib>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>Cibola National Forest</cntorg>
+				</cntorgp>
+				<cntpos>GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>mailing and physical address</addrtype>
+					<address>2113 Osuna Rd NE</address>
+					<city>Albuquerque</city>
+					<state>NM</state>
+					<postal>87113</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>505-346-3900</cntvoice>
+				<hours>0800-1645, M-F, Mountain Time</hours>
+			</cntinfo>
+		</distrib>
+		<resdesc>Cibola Wilderness Boundaries</resdesc>
+		<distliab>
+The USDA forest Service manages these data for planning
+purposes, not necessarily for actual on the ground
+implementation. The USFS is in no way condoning or
+endorsing the actual on the ground implementation of these
+data. It is the sole responsibility of the user to
+determine whether or not the data are suitable for the
+intended purpose. It is also the obligation of the user to
+apply these data in an appropriate and conscientious
+manner. The USFS provides no warranty, nor accepts any
+liability occurring from the use of these data.
+</distliab>
+		<stdorder><digform><digtinfo><transize Sync="TRUE">0.000</transize><dssize Sync="TRUE">0.000</dssize></digtinfo></digform></stdorder></distinfo>
+	<metainfo>
+		<metd Sync="TRUE">20101116</metd>
+		<metc>
+			<cntinfo>
+				<cntorgp>
+					<cntorg>USDA Forest Service, Southwestern Region</cntorg>
+					<cntper>GIS</cntper>
+				</cntorgp>
+				<cntpos>Regional GIS Coordinator</cntpos>
+				<cntaddr>
+					<addrtype>Mailing and physical address</addrtype>
+					<address>333 Broadway SE</address>
+					<city>Albuquerque</city>
+					<state>NM</state>
+					<postal>87102</postal>
+					<country>USA</country>
+				</cntaddr>
+				<cntvoice>505-842-3292</cntvoice>
+				<hours>0800-1630 M-F, Mountain Time</hours>
+			</cntinfo>
+		</metc>
+		<metstdn Sync="TRUE">FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+		<metstdv Sync="TRUE">FGDC-STD-001-1998</metstdv>
+		<mettc Sync="TRUE">local time</mettc>
+		<metextns>
+			<onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+			<metprof>ESRI Metadata Profile</metprof>
+		</metextns>
+		<langmeta Sync="TRUE">en</langmeta><metextns><onlink Sync="TRUE">http://www.esri.com/metadata/esriprof80.html</onlink><metprof Sync="TRUE">ESRI Metadata Profile</metprof></metextns></metainfo>
+	<Esri><CreaDate>20140812</CreaDate><CreaTime>10555500</CreaTime><SyncOnce>FALSE</SyncOnce><SyncDate>20101116</SyncDate><SyncTime>11341600</SyncTime><ModDate>20101116</ModDate><ModTime>11341600</ModTime><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\FeatureClassToFeatureClass" Date="20101116" Time="113416">FeatureClassToFeatureClass GPL0 C:\WorkSpace\R03\CIB\Web Wilderness # "WILD_CN 'WILD_CN' true false false 34 Text 0 0 ,First,#,C:\WorkSpace\R03\CIB\Web\CIB_Web_Data.gdb\Land\Wilderness,WILD_CN,-1,-1;WILD_USE_CODE 'WILD_USE_CODE' true true false 255 Text 0 0 ,First,#,C:\WorkSpace\R03\CIB\Web\CIB_Web_Data.gdb\Land\Wilderness,WILD_USE_CODE,-1,-1;WILD_NAME 'WILD_NAME' true true false 80 Text 0 0 ,First,#,C:\WorkSpace\R03\CIB\Web\CIB_Web_Data.gdb\Land\Wilderness,WILD_NAME,-1,-1" # C:\WorkSpace\R03\CIB\Web\Wilderness.shp</Process></lineage></DataProperties><ArcGISFormat>1.0</ArcGISFormat></Esri><dataIdInfo><envirDesc Sync="TRUE">Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.4000</envirDesc><dataLang><languageCode Sync="TRUE" value="en"></languageCode></dataLang><idCitation><resTitle Sync="TRUE">Wilderness</resTitle><presForm><PresFormCd Sync="TRUE" value="005"></PresFormCd></presForm></idCitation><spatRpType><SpatRepTypCd Sync="TRUE" value="001"></SpatRepTypCd></spatRpType><dataExt><geoEle><GeoBndBox esriExtentType="native"><westBL Sync="TRUE">267955.364</westBL><eastBL Sync="TRUE">373583.69</eastBL><northBL Sync="TRUE">3906920.172</northBL><southBL Sync="TRUE">3713169.139</southBL><exTypeCode Sync="TRUE">1</exTypeCode></GeoBndBox></geoEle></dataExt><geoBox esriExtentType="decdegrees"><westBL Sync="TRUE">-107.551303</westBL><eastBL Sync="TRUE">-106.361737</eastBL><northBL Sync="TRUE">35.297485</northBL><southBL Sync="TRUE">33.532954</southBL><exTypeCode Sync="TRUE">1</exTypeCode></geoBox></dataIdInfo><mdLang><languageCode Sync="TRUE" value="en"></languageCode></mdLang><mdStanName Sync="TRUE">ISO 19115 Geographic Information - Metadata</mdStanName><mdStanVer Sync="TRUE">DIS_ESRI1.0</mdStanVer><mdChar><CharSetCd Sync="TRUE" value="004"></CharSetCd></mdChar><mdHrLv><ScopeCd Sync="TRUE" value="005"></ScopeCd></mdHrLv><mdHrLvName Sync="TRUE">dataset</mdHrLvName><distInfo><distributor><distorTran><onLineSrc><orDesc Sync="TRUE">002</orDesc><linkage Sync="TRUE">file://\\PCHP8210VH3\C$\WorkSpace\R03\CIB\Web\Wilderness.shp</linkage><protocol Sync="TRUE">Local Area Network</protocol></onLineSrc><transSize Sync="TRUE">0.000</transSize></distorTran><distorFormat><formatName Sync="TRUE">Shapefile</formatName></distorFormat></distributor></distInfo><refSysInfo><RefSystem><refSysID><identCode Sync="TRUE">NAD_1983_UTM_Zone_13N</identCode></refSysID></RefSystem></refSysInfo><spatRepInfo><VectSpatRep><topLvl><TopoLevCd Sync="TRUE" value="001"></TopoLevCd></topLvl><geometObjs Name="Wilderness"><geoObjTyp><GeoObjTypCd Sync="TRUE" value="001"></GeoObjTypCd></geoObjTyp><geoObjCnt Sync="TRUE">0</geoObjCnt></geometObjs></VectSpatRep></spatRepInfo><mdDateSt Sync="TRUE">20101116</mdDateSt></metadata>
