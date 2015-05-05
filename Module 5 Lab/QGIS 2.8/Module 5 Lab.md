@@ -63,13 +63,13 @@ Raster datasets are always rectangular. If the data content does not fill the re
 
 	c. Interpolation = [1] Bilinear Interpolation
 
-	d. Overlapping cells = [1] first value in order of grid list
+	d. Overlapping cells = [1] last value in order of grid list
 
 	e. Mosaicked grid = Save to file: Lab 5 Data\\Mosaick.tif
 
-	f. Will the parameters matching the figure below, click Run.
+	f. When parameters match the figure below, click Run.
 
-![Mosaick raster layers](figures/Mosaick_raster_layers.png "Mosaick raster layers")
+![Mosaick Raster Layers](figures/Mosaick_raster_layers.png "Mosaick Raster Layers")
 
 12. Turn off the input DEMs in the Layers panel. You now have a seamless raster (shown in figure below).
 
@@ -145,9 +145,9 @@ Using the National Map (http://viewer.nationalmap.gov/viewer/) download DEMs for
 2. Click the Download Data ![Download Data button](figures/Download_Data_button.png "Download Data button")  button. 
 3. From the USGS Available Data for download select Elevation.
 
-![USGS Available Data for download](figures/USGS_Available_Data_for_download.png "USGS Available Data for download") 
+![USGS Available Data for Download](figures/USGS_Available_Data_for_download.png "USGS Available Data for Download") 
 
-4. All the available DEM’s will be displayed.
+4. All the available DEMs will be displayed.
 5. Select the 1/9 arc-second datasets covering your area.
 
 ![USGS Available Data for download 2](figures/USGS_Available_Data_for_download_2.png "USGS Available Data for download 2") 

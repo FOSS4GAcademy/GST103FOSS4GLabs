@@ -2,7 +2,7 @@
 ## Lab 4 - Spatial Data Quality
 ### Objective – Learn to Assess Data Quality, Work with Metadata and Aggregate Data
 
-Document Version: 9/16/2014
+Document Version: 5/4/2015
 
 **FOSS4G Lab Author:**
 Kurt Menke, GISP
@@ -22,7 +22,7 @@ This document continues to be modified and improved by generous public contribut
 
 ### 1. Introduction
 
-Spatial data is becoming more and more common and readily available via the internet. However, the accuracy of the data is always a concern. As we are experiencing a growth in data availability, we should choose our sources wisely. When it comes to data accuracy, not only do we look at the spatial component, but the attribute component as well. Metadata is becoming a large component to data and it is a key factor in determining the completeness of data.
+Spatial data is becoming more common and readily available via the internet. However, the accuracy of the data is always a concern. As we are experiencing a growth in data availability, we should choose our sources wisely. When it comes to data accuracy, not only do we look at the spatial component, but the attribute component as well. Metadata is becoming a large component to data and it is a key factor in determining the completeness of data.
 
 This lab includes the following tasks:
 
@@ -57,7 +57,7 @@ Data accuracy is an important concept and this goes for the spatial data as well
 
 	h. Click OK
 
-![Create a Layer from a Delimited Text File](figures/Create_a_Layer_from_a_Delimited_Text_File.png "Create a Layer from a Delimited Text File")
+![Create a Layer From a Delimited Text File](figures/Create_a_Layer_from_a_Delimited_Text_File.png "Create a Layer From a Delimited Text File")
 
 4. The Coordinate Reference System Selector will appear. Choose WGS 84 (EPSG:4326) and click OK.
 4. Right-click on the Shipwrecks layer in the Layers panel and choose Zoom to layer.
@@ -121,9 +121,9 @@ The FGDC Metadata Standard contains six major sections as seen below.
 11. The viewer is not completely parsing this metadata file. If you click on the Data Quality section it is blank.
 12. To see the Data Quality section, open the Lab 4 Data\tl_2010_35_place10.shp.xml file in a web browser. You should be able to double click on it and have your operating system locate the associated program. This is the raw XML metadata.
 13. This is certainly harder to look at than the parsed display in Metatools. Fortunately, all metadata files have the same sections in the same order. This is due to having a standard.
-14. Scroll down past the abstract and you will find a tag called <dataqual>. This section contains the Logical Consistency Report, which details the tests used to determine the data quality (shown in figure below).
+14. Scroll down past the abstract and you will find a tag called dataqual. This section contains the Logical Consistency Report, which details the tests used to determine the data quality (shown in figure below).
 
-![Logical_Consistency_Report_in_Web_Browser](figures/Logical_Consistency_Report_in_Web_Browser.png "Logical_Consistency_Report_in_Web_Browser")
+![Logical Consistency Report in Web Browser](figures/Logical_Consistency_Report_in_Web_Browser.png "Logical Consistency Report in Web Browser")
 
 15. Slightly farther down you will find the <attr> section. This section details all of the attribute columns.
 16. Close the web browser with the metadata XML displayed.
@@ -150,10 +150,10 @@ Data aggregation is the process where data is joined, merged, or generalized to 
 
 The result is an example of data aggregation. All the data in the map will be mapped using those regions (shown in the figure below). In this scenario, all data by country will be aggregated to the sub region level. 
 
-![Data Aggregation via a Dissolve](figures/Data_Aggregation_via_a_Dissolve.png "Data Aggregation via a Dissolve")
+![Data Aggregation Via a Dissolve](figures/Data_Aggregation_via_a_Dissolve.png "Data Aggregation Via a Dissolve")
 
 ### 3. Conclusion
-Spatial and attribute data accuracy is important. Having a complete data set and keeping track of all the edits and errors is also important. Metadata serves as a background on the data provided to us. It supplies us with vital information regarding the use and resolution of the data. If you read the metadata, you may be able to determine that the data is not a good fit for your project before trying to edit and manipulate it. Data aggregation is a way to abstract the data and to remove data levels from the data. In task 3, you changed the lowest level in the data from countries to sub regions. This is important but we need to be aware of the consequences of our actions when mapping data and how the accuracy is changed when we manipulate it.
+Spatial and attribute data accuracy is important. Having a complete data set and keeping track of all the edits and errors is also important. Metadata provides background on the data provided to us. It supplies us with vital information regarding the use and resolution of the data. If you read the metadata, you may be able to determine that the data is not a good fit for your project before trying to edit and manipulate it. Data aggregation is a way to abstract the data and to remove data levels from the data. In task 3, you changed the lowest level in the data from countries to sub regions. This is important but we need to be aware of the consequences of our actions when mapping data and how the accuracy is changed when we manipulate it.
 
 ### 4. Discussion Questions
 

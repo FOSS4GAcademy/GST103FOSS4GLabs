@@ -30,7 +30,7 @@ This lab includes the following tasks:
 + Task 2 Build a Map
 
 ### 2 Objective: Learn to Map Address Data via Geocoding
-The objective of this lab is to learn how to geocode address based data provided in a text file and create a map from various data sources that will be given.
+The objective of this lab is to learn how to geocode address based data provided in a text file and create a map from various data sources.
 
 ### Task 1 Geocoding
 
@@ -39,7 +39,7 @@ In a geocoding operation, address data contained in a table or text file are map
 2. Open QGIS Desktop and add the Streets.shp shapefile.
 3. Open the Attribute table for Streets and examine the available fields of data. Notice that in addition to the STREETNAME and STREETDESI columns that the data include fields called LEFTLOW, LEFTHIGH, RIGHTLOW, and RIGHTHIGH. These fields hold the address range for each road segment. These are necessary in a geocoding operation.
 4. Close the attribute table.
-4. Click the Add Vectory Layer button and add the Addresses.csv table to QGIS Desktop.
+4. Click the Add Vector Layer button and add the Addresses.csv table to QGIS Desktop.
 5. Open the attribute table for the Addresses layer.
 5. This file has an ADDRESS column that combines the street number, street, street type (ex: BLVD, AVE, ST), and city quadrant. There are additional fields with that address parsed out into STREET, NUMBER and QUAD. The tool you will be using requires separate fields in the address data for street and street number.
 6. Now that you are familiar with the data, close the Addresses attribute table.
@@ -85,7 +85,7 @@ MMQGIS appears as a separate menu in QGIS Desktop.
 
 	a. Click the Browse button, navigate to the Lab 6 Data folder and choose the Addresses.csv as the Input CSV File (UTF-8).
 
-	b. Address field = STREET
+	b. Address Field = STREET
 
 	c. City Field = CITY
 

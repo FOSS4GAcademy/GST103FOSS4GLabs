@@ -64,11 +64,11 @@ This layer is in a custom Albers Equal Area coordinate system. Since it is in a 
 9. Save the resulting dataset as a shapefile named Forest_boundary.shp to the Lab Data folder.
 10. Set the CRS to UTM Zone 10 NAD83 (EPSG 26910) (completed dialog shown in figure below).
 
-![Saving the Covererage out to a Shapefile in UTM](figures/Saving_the_Covererage_out_to_a_Shapefile_in_UTM.png "Saving the Covererage out to a Shapefile in UTM")
+![Saving the Covererage Out to a Shapefile in UTM](figures/Saving_the_Covererage_out_to_a_Shapefile_in_UTM.png "Saving the Covererage Out to a Shapefile in UTM")
 
 9. Click OK to save the new shapefile and add it to the map.
 10. Remove the PAL layer from the map as we no longer need it.
-10. Export the Ranger_dist coverage PAL polygon to a shapefile with the same coordinate system as the Forest_boundary layer. Once this has been completed, thet map should resemble the figure below.
+10. Export the ranger_dist coverage PAL polygon to a shapefile with the same coordinate system as the Forest_boundary layer. Once this has been completed, thet map should resemble the figure below.
 
 ![Shapefile Versions of Both Coverages in UTM](figures/Shapefile_Versions_of_Both_Coverages_in_UTM.png "Shapefile Versions of Both Coverages in UTM")
 
@@ -77,7 +77,7 @@ The only other dataset in Albers Equal Area is the vegetation shapefile.
 10. Add the gp_veg041008.shp shapefile to QGIS Desktop and save this as a new shapefile in UTM Zone 10 NAD83.
 11. Add the NF_roads, NF_trails, and watershed_huc4 shapefiles to QGIS Desktop.
 
-These last three layers are all shapefiles in the correct CRS. However, they extend beyond the forest boundary. Let's clip the layers to within the forest boundary.
+These last three layers are all shapefiles in the correct CRS. However, they extend beyond the forest boundary. We need to clip the layers to within the forest boundary.
 
 12. Use the Vector | Geoprocessing Tools | Clip tool to clip the roads, trails, and watershed to the forest boundary (example clip parameters shown in the figure below). You can give them the same output name, but end it with clip. For example, NF_roads will become NF_roads_clip.
 
@@ -87,7 +87,7 @@ These last three layers are all shapefiles in the correct CRS. However, they ext
 
 ![Normalized Layers](figures/Normalized_Layers.png "Normalized Layers")
 
-You have taken the initial steps to normalize the data. There are two more layers that we will put in the SpatiaLite database, rivers and lakes, however, KML files are always in a geographic CRS of WGS 1984 (EPSG:4326). These KML files can be repojected when importing into the SpatiaLite database without having to be converted to another format.
+You have taken the initial steps to normalize the data. There are two more layers that we will put in the SpatiaLite database; rivers and lakes. However, KML files are always in a geographic CRS of WGS 1984 (EPSG:4326). These KML files can be repojected when importing into the SpatiaLite database without having to be converted to another format.
 
 14. Save your project.
 
@@ -99,7 +99,7 @@ Now that you have taken the initial steps to prepare your data, you will create 
 2. Find the Browser panel. If your Browser panel is not visible, click View | Panels | Browser to turn it on.
 3. Find the SpatiaLite database connection below your hard drives. Right-click on it and choose Create database (figure below).
 
-![Create New Database Context Menu](figures/Create_New_Database_Context_Menu.png "Create New Database Context Menu")
+![Create Database Context Menu](figures/Create_New_Database_Context_Menu.png "Create Database Context Menu")
 
 4. Navigate to the Lab Data folder and name the new database GiffordPinchot.sqlite and click Save (figure below).
 
@@ -116,7 +116,7 @@ The database will now appear under the SpatiaLite database connection.
 Now you will populate the SpatiaLite database with the eight layers.
 
 1. Open your Lab2.qgs project in QGIS Desktop if it is not already open.
-2. Add the stream and lake KML layers to QGIS Desktop.
+2. Add the streams and lake KML layers to QGIS Desktop.
 3. From the menu bar choose Database | DB Manager | DB Manager. Expand the SpatiaLite database connection . You will see the GiffordPinchot.sqlite database. If you expand the database, you will see many tables but no GIS layers yet (shown in figure below).
 
 ![DB Manager](figures/DB_Manager.png "DB Manager")
@@ -165,8 +165,8 @@ Streams and Lakes were the final two layers that required a CRS reprojection. Th
 13. Repeat the above steps for trails, watersheds, ranger districts, vegetation, and forest boundary layers.
 14. Now that all eight layers have been imported you can remove the original layers from the map.
 15. The layers in the database can be added via the DB Manager or the Add SpatiaLite Layer button. 
-16. If using the DB Manager, right click on a layer and choose Add to canvas. 
-17. If using the Add SpatiaLite Layer button ![SpatiaLite layer button](figures/SpatiaLite_layer_button.png "SpatiaLite layer button"), select the database and click the Connect button. Once the layers appear, you can select them and click Add to add them to QGIS (figure below).
+16. If using the DB Manager, right-click on a layer and choose Add to canvas. 
+17. If using the Add SpatiaLite Layer button ![SpatiaLite layer button](figures/SpatiaLite_layer_button.png "SpatiaLite layer button"), select the database and click the Connect button. Once the layers appear, you can select them and click Add, which will add them to QGIS (figure below).
 
 ![Add SpatiaLite Tables](figures/Add_SpatiaLite_Tables.png "Add SpatiaLite Tables")
 

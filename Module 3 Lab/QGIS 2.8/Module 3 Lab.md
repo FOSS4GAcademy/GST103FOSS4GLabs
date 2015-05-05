@@ -36,7 +36,7 @@ In this lab you will be explore the spatial relationship between points, lines, 
 
 ###Task 1 Topology Rules - Part 1
 
-In this task, you will use the Topology Rules plugin to investigate the quality of two datasets: bus routes and bus stops.
+In this task, you will use the Topology Checker plugin to investigate the quality of two datasets: bus routes and bus stops.
 
 2. Open QGIS Desktop and add the parcels.shp, Bus_stops.shp and Bus_routes.shp layers from the Lab Data folder to to the map (shown in figure below).
 
@@ -107,7 +107,7 @@ Now you will edit the parcel layer to eliminate these 17 topology errors.
 3. First, you will work on the duplicate geometries. Right-click on the parcels layer in the Layers panel and choose Toggle Editing.
 4. Double-click on the first **duplicate geometry** error in the Topology Checker panel to zoom into that location.
 5. Use the Select Feature by Rectangle tool ![Select Feature by Rectangle tool](figures/Select_Feature_by_Rectangle_tool.png "Select Feature by Rectangle tool") *and drag a small rectangle* to select the duplicate parcels on the map.
-6. Open the parcel layer attribute table. 
+6. Open the parcels layer attribute table. 
 7. Change the display filter in the lower-left corner to Show Selected Features. 
 8. Notice that for the two selected features, all of the attributes are identical.
 9. Select the feature with the higher row number by clicking on the row number. This leaves just one selected record.
@@ -118,7 +118,7 @@ Now that the duplicate geometry errors are fixed, we will turn our attention to 
 
 11. From the menu bar choose Settings | Snapping Options.
 12. Set the Snapping mode to Advanced.
-12. In the left-most column, check Bus_routes and Bus_stops and check parcels.
+12. In the left-most column, uncheck Bus_routes and Bus_stops and check parcels.
 13. Set the Mode for parcels to 'to vertex' and the Tolerance to 10 map units.
 14. Check Enable topological editing.
 15. Check Enable snapping on intersection.
@@ -166,7 +166,7 @@ There is one other issue with this parcel. There is a tiny overlap in the northw
 
 ![Smaller Overlap Issue](figures/Smaller_Overlap_Issue.png "Smaller Overlap Issue")
 
-23. To resolve this, simply select the affected vertices with the Node tool, and snap them back into place. The overlap is so small you won’t see them move, however, the overlap will be resolved with due to the Topological editing setting.
+23. To resolve this, simply select the affected vertices with the Node tool, and snap them back into place. The overlap is so small you won’t see them move, however, the overlap will be resolved due to the Topological editing setting.
 21. The remaining overlaps can be fixed in the same fashion.
 22. From the Topology Checker panel click on the first Gap error in the list (for Feature ID 0). Again you will be zoomed to the location of the error (shown in figure below).
 
@@ -179,7 +179,7 @@ There is one other issue with this parcel. There is a tiny overlap in the northw
 ![Fixing the Gap Error](figures/Fixing_the_Gap_Error.png "Fixing the Gap Error")
 
 25. Click Validate extent to ensure that the issue has been resolved. 
-26. You can repair the other gap errors the same way.
+26. You can repair other gap errors the same way.
 27. When you are done repairing the topology errors, save your edits.
 28. Save your project.
 
