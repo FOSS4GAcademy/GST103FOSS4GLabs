@@ -38,7 +38,7 @@ In this lab you will be explore the spatial relationship between points, lines, 
 
 In this task, you will use the Topology Checker plugin to investigate the quality of two datasets: bus routes and bus stops.
 
-2. Open QGIS Desktop and add the parcels.shp, Bus_stops.shp and Bus_routes.shp layers from the Lab Data folder to to the map (shown in figure below).
+2. Open QGIS Desktop and add the parcels.shp, Bus_stops.shp and Bus_routes.shp layers from the Lab Data folder to the map (shown in figure below).
 
 ![Data Layers in QGIS Desktop](figures/Data_Layers_in_QGIS_Desktop.png "Data Layers in QGIS Desktop")
 

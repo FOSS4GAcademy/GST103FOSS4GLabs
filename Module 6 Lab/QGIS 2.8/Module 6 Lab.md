@@ -66,7 +66,7 @@ MMQGIS appears as a separate menu in QGIS Desktop.
 
 	e. Geocoding operations rarely have 100% success. Street names in the street shapefile must match the street names in the CSV file exactly. The tool will save out a list of the unmatched records. Set Not Found Output List to Geocoded_Addresses_Not_Found.csv to the Lab 6 Data folder.
 
-	f.Click OK to run. This process may take several minutes. The status of the geocoding will display in the bottom-left corner of QGIS Desktop.
+	f. Click OK to run. This process may take several minutes. The status of the geocoding will display in the bottom-left corner of QGIS Desktop.
 
 ![Geocode_from_Street_Layer](figures/Geocode_from_Street_Layer.png "Geocode_from_Street_Layer")
 
